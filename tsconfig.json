@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es2022"
+    ],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2022"
+  },
+  "exclude": [
+    "bin",
+    "coverage",
+    "node_modules",
+    "cicd",
+    "test",
+    ".idea",
+    ".aws-sam",
+    "dist",
+    ".build",
+    ".serverless",
+    "_optimize",
+    "_warmup",
+    "terraform",
+    ".aws-sam"
+  ]
+}
+
+

@@ -1,0 +1,41 @@
+# package directories
+node_modules/
+.env
+
+# terraform
+terraform/lambda
+.terraform
+tf.plan
+
+# Serverless directories
+.serverless
+
+.idea
+
+# build
+out
+dist
+.webpack
+
+# npm
+.npmrc
+.eslintrc
+
+.terraform/
+*.tfvars
+
+*.env
+/.env
+/.env.acc
+/.env.mocks
+/.env.prod
+
+temp/
+temp/*
+
+coverage/
+junit.xml
+
+.build/
+
+.aws-sam/
